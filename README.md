@@ -50,7 +50,7 @@ From the project root:
 Output will be generated at:
 > output/evaluation_results.json
 
-## Evaluation Logic (High-Level)
+## Evaluation Logic
 
 - Relevance score is computed using cosine similarity between the user query and combined retrieved context.
 - Hallucination score measures semantic distance between the LLM response and the supporting context chunks.
