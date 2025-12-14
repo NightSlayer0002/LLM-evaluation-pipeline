@@ -40,3 +40,12 @@ This project simulates a real-world **RAG (Retrieval-Augmented Generation)** eva
 
 3. Install dependencies
 > pip install -r requirements.txt
+
+## Running the Pipeline
+
+From the project root:
+> python src/main.py
+
+
+Output will be generated at:
+> output/evaluation_results.json
