@@ -25,3 +25,18 @@ This project simulates a real-world **RAG (Retrieval-Augmented Generation)** eva
 - JSON-based vector context
 
 ---
+
+## Setup Instructions
+1. Create virtual environment
+> python -m venv venv
+
+2. Activate virtual environment
+   
+- Windows
+> venv\Scripts\activate
+
+- macOS / Linux
+> source venv/bin/activate
+
+3. Install dependencies
+> pip install -r requirements.txt
