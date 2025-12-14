@@ -1,19 +1,27 @@
-# LLM-evaluation-pipeline
+# LLM Evaluation Pipeline (RAG Quality Metrics)
 
-This repo contains an automated LLM Evaluation Pipeline designed to test AI model responses based on:
+A lightweight LLM evaluation pipeline that measures **relevance** and **hallucination** of chatbot responses using embedding-based semantic similarity.
 
-- Response Relevance & Completeness
-- Hallucination / Factual Accuracy
-- Latency & Cost Tracking
+This project simulates a real-world **RAG (Retrieval-Augmented Generation)** evaluation workflow with cost and latency tracking.
 
-The pipeline runs in real-time, scales to millions of daily conversations, and supports any LLM provider (OpenAI, Claude, Grok, etc).
+---
 
-## Local Setup
-> git clone <repo-url>
-> cd llm-eval-pipeline
+## Features
 
-> pip install -r requirements.txt
+- Relevance scoring between user query, context, and LLM response
+- Hallucination detection using semantic similarity
+- Defensive handling for noisy / incomplete vector data
+- Local execution (no paid API calls required)
+- Tracks estimated latency and cost
 
-## Run the script:
+---
 
-> python main.py
+## Tech Stack
+
+- Python 3.10+
+- SentenceTransformers (MiniLM)
+- Transformers
+- TensorFlow (CPU)
+- JSON-based vector context
+
+---
