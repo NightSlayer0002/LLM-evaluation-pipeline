@@ -2,7 +2,7 @@
 
 A lightweight LLM evaluation pipeline that measures **relevance** and **hallucination** of chatbot responses using embedding-based semantic similarity.
 
-This project simulates a real-world **RAG (Retrieval-Augmented Generation)** evaluation workflow with cost and latency tracking.
+This project simulates a real-world **RAG (Retrieval Augmented Generation)** evaluation workflow with cost and latency tracking.
 
 ---
 
